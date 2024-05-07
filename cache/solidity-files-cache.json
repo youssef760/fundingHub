@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/mnt/c/pr0/web3-crowdfunding/src/contracts/FundingHub.sol": {
+      "lastModificationDate": 1702997217188,
+      "contentHash": "627dc307fa3fc1a1473ea6eaa32d6e74",
+      "sourceName": "src/contracts/FundingHub.sol",
+      "solcConfig": {
+        "version": "0.8.11",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.7"
+      ],
+      "artifacts": [
+        "FundingHub"
+      ]
+    }
+  }
+}

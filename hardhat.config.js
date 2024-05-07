@@ -7,13 +7,9 @@ module.exports = {
     localhost: {
       url: 'http://127.0.0.1:8545',
     },
-    mumbai: {
-      url: process.env.ENDPOINT_URL,
-      accounts: [process.env.DEPLOYER_KEY],
-    },
   },
   solidity: {
-    version: '0.8.18',
+    version: '0.8.11',
     settings: {
       optimizer: {
         enabled: true,
